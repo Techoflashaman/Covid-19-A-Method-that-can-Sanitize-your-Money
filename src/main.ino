@@ -1,24 +1,3 @@
-# Covid-19 A Method that can Sanitize your Money
-
-This project work on when .
-
-## Components Used
-
-### Hardware
-
-### Software
-
-1. VS Code (Arduino IDE Extension)
-
-## Schematic
-
-<img src=""></img>
-
-## Result
-
-## Code
-
-```javascript
 /*
 * Author : Mohd Aman Ansari
 * embed
@@ -35,9 +14,7 @@ This project work on when .
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
  
-void setup() 
-
-{
+void setup() {
    
   lcd.begin(16, 2);
   lcd.clear(); 
@@ -51,12 +28,10 @@ void setup()
   delay(5000); 
    
  
- }
+}
 
  
-void loop() 
- 
- {
+void loop() {
     
   lcd.begin(16, 2);
   lcd.clear(); 
@@ -69,6 +44,6 @@ void loop()
  
   delay(5000); 
  
- }
+ 
 
-```
+}
